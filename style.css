@@ -1,0 +1,104 @@
+* {
+    font-family: Inter;
+    text-decoration: none;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header {
+    margin-top: 40px;
+}
+h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 72px */
+}
+p {
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+button {
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 56px;
+    background: #F25822;
+    border: none;
+}
+button:hover {
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+}
+a:hover {
+    color: #F25822;
+    font-weight: 600;
+}
+.container {
+    width: 1174px;
+    flex-direction: column;
+    
+}
+.top__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+    margin-bottom: 100px;
+}
+.top__content__text {
+    margin-right: 73px;
+}
+.top__content__text p {
+    margin: 20px auto 32px auto;
+}
+.top__content__text__buttons {
+    display: flex;
+    flex-direction: row;
+}
+.transparent_button {
+    display: flex;
+    width: 140px;
+    padding: 16px 10px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    color: #AAA;
+    font-family: Inter;
+    font-size: 16px;
+}
+.transparent_button:hover {
+    box-shadow: none;
+    color: #000;
+}
+.top__brand_logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
